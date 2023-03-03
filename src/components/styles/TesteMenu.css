@@ -1,0 +1,24 @@
+#Cabecalho {
+    position: relative;
+    width: 60px;
+    margin: 20px auto;
+}
+
+#MenuBotao {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+#BtnLeft {
+    background-color: #333;
+    position: absolute;
+    height: 8px;
+    width: 30px;
+    top: 30px;
+    left: 0;
+    transition-duration: 0.5s;
+}

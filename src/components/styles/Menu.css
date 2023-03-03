@@ -1,0 +1,23 @@
+#MenuBotao {
+    padding: 20px;
+    cursor: pointer;
+    position: fixed;
+    right: 0;
+    background-color: transparent;
+}
+#barA {
+    border-bottom: 5px solid #301E67;
+    width: 40px;
+    transition: 0.5s ease-in-out;
+}
+#barB {
+    border-bottom: 5px solid #5B8FB9;
+    width: 40px;
+    margin-top: 4px;
+}
+#barC {
+    border-bottom: 5px solid #B6EADA;
+    width: 40px;
+    margin-top: 4px;
+    transition: 0.5s ease-in-out;
+}

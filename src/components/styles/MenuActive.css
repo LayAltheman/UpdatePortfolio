@@ -1,0 +1,57 @@
+#Navigation {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    transition: 0.5s ease-in-out;
+}
+#MenuContent {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--secundaryFont);
+    font-size: 3rem;
+    gap: 2rem;
+}
+#MenuContent ul li, a {
+    list-style-type: none;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    font-family: var(--secundaryFont);
+    color: var(--purpleColor);
+}
+
+#MenuContent a:hover {
+    color: var(--blueColor);
+}
+/* fim da visualização menu flex/none */
+/* estilização da classe active */
+#Navigation.active {
+    display: flex;
+    position: absolute;
+}
+
+#MenuBotao.active #barA {
+    transform: rotate(45deg);
+    position: fixed;
+    right: 20px;
+    top: 30px;
+    border-bottom: 5px solid #301E67;
+    transition: 0.5s ease-in-out;
+
+}
+
+#MenuBotao.active #barB {
+    display: none;
+}
+
+#MenuBotao.active #barC {
+    transform: rotate(-45deg);
+    position: fixed;
+    right: 20px;
+    top: 27px;
+    border-bottom: 5px solid #301E67;
+    transition: 0.5s ease-in-out;
+}
+/* fim da estilização da classe active */
