@@ -4,6 +4,7 @@
     position: fixed;
     right: 0;
     background-color: transparent;
+    z-index: 1000;
 }
 #barA {
     border-bottom: 5px solid #301E67;

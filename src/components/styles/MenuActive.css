@@ -30,6 +30,7 @@
 #Navigation.active {
     display: flex;
     position: absolute;
+    z-index: 100;
 }
 
 #MenuBotao.active #barA {

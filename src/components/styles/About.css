@@ -1,0 +1,56 @@
+.titlePage {
+    padding: 20px 0 50px 10px;
+    height: 10%;
+}
+
+#aboutInfo {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+#firstPanel {
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 110px;
+    position:relative;
+}
+
+#resume {
+    margin-left: 50px;
+    font-family: var(--secundaryFont);
+}
+
+#cards {
+    height: 30%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+#professional,
+#academic,
+#hobbies {
+    width: 400px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 5px solid var(--blueColor);
+}
+
+.cardTitle {
+    font-family: var(--secundaryFont);
+    margin-top: 5px;
+    background-color: transparent;
+    text-align: center;
+}
