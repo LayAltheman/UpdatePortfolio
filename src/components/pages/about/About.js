@@ -2,11 +2,16 @@ import React from 'react';
 import Menu from '../../Menu';
 import MenuActive from '../../MenuActive';
 import AuthorImg from '../../img/author.jpg';
+import ExperienceCard from '../../ExperienceCard';
+import AcademicCard from '../../AcademicCard';
+import HobbiesCard from '../../HobbiesCard';
 
 import '../../styles/Background.css';
 import '../../styles/Menu.css';
 import '../../styles/MenuActive.css';
 import '../../styles/About.css';
+import '../../styles/AcademicCard.css';
+import '../../styles/HobbiesCard.css';
 
 function About() {
     return (
@@ -34,13 +39,22 @@ function About() {
             <div id='secondPanel'>
                 <div id='cards'>
                     <div id='professional'>
-                        <p className='cardTitle'>Histórico Profissional</p>
+                        <p className='cardTitle'><span className="blueColor">Experiência</span> <span className="purpleColor">Profissional</span></p>
+                        <div className='cardItem'>
+                            <ExperienceCard/>
+                        </div>
                     </div>
                     <div id='academic'>
-                        <p className='cardTitle'>Formação Acadêmica</p>
+                        <p className='cardTitle'><span className="blueColor">Formação</span> <span className="purpleColor">Acadêmica</span></p>
+                        <div className='cardItem'>
+                            <AcademicCard/>
+                        </div>
                     </div>
                     <div id='hobbies'>
                         <p className='cardTitle'>Hobbies</p>
+                        <div className='cardItem'>
+                            <HobbiesCard/>
+                        </div>
                     </div>
                 </div>
             </div>

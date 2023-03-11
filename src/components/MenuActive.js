@@ -2,8 +2,11 @@ import { Link } from "react-router-dom";
 
 function MenuActive() {
     return (
-        <nav id='Navigation'>
+        <div id='Navigation'>
             <div id='MenuContent'>
+                <ul>
+                    <li id='Home'><Link to='/home'>Home</Link></li>
+                </ul>
                 <ul>
                     <li id='About'><Link to='/about'>Sobre Mim</Link></li>
                 </ul>
@@ -17,7 +20,7 @@ function MenuActive() {
                     <li id='Contact'><Link to='/contact'>Contato</Link></li>
                 </ul>
             </div>
-        </nav>
+        </div>
     );
 }
 

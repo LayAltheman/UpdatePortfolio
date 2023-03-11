@@ -1,0 +1,7 @@
+#firstExperience p {
+    background-color: var(--boxColor);
+}
+
+.resumeExperienceCard {
+    padding-top: 50px;
+}

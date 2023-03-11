@@ -4,6 +4,7 @@
   --blueColor: #5B8FB9;
   --purpleColor: #301E67;
   --whiteGreenColor: #B6EADA;
+  --boxColor: rgba(255, 255, 255, 0.8);
 
   --primaryFont: 'VT323', monospace;
   --secundaryFont: 'Quicksand', sans-serif; 

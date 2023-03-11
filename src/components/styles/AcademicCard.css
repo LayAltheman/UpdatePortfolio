@@ -1,0 +1,13 @@
+#firstExperience p {
+    background-color: var(--boxColor);
+}
+#firstAcademic p,
+#secondAcademic p {
+    background-color: var(--boxColor);
+}
+#secondAcademic {
+    margin: 25px;
+}
+#experienceCard {
+    background-color: transparent;
+}
